@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport"
+				content="width=device-width, initial-scale=1.0">
+	<meta name="description"
+				content="Classic pizza">
+	<meta name="keywords"
+				content="">
+	<link rel="shortcut icon"
+				href="img/favicons/favicon.svg"
+				type="image/svg+xml">
+	<link rel="shortcut icon"
+				href="img/favicons/favicon.webp"
+				type="image/webp">
+	<link rel="shortcut icon"
+				href="img/favicons/favicon.png"
+				type="image/x-icon">
+	<link rel="stylesheet"
+				href="css/libs.min.css">
+	<link rel="stylesheet"
+				href="css/style.min.css">
+	<title>Classic pizza</title>
+</head>
+
+ 
+<body class="body">
+	<header class="header">
+    <div class="header__container container">
+        <div class="header__body">
+             <div class="header__menu">
+                 <ul class="header__items">
+                     <li data-block="home" class="link"><a >Home</a></li>
+                     <li data-block="dishes" class="link"><a >Dishes</a></li>
+                     <li data-block="contact" class="link"><a >Contact</a></li>
+                 </ul>
+             </div>
+             <img src="./img/logo.png" alt="" class="header__logo">
+             <div class="header__info">
+                 <div class="header__time">Daily 11am - 9pm</div>
+                 <div class="header__number number">
+                    <div class="number__ico --svg__telephone"></div>
+                    <div class="number__text">0 800 33 08 98</div>
+                 </div>
+             </div>
+             <div class="header__burger"><span></span></div>
+        </div>
+    </div>
+</header>
+
+	<main class="main">
+		<div class="first-screen">
+    <img src="./img/first-screen/background.png" alt="" class="first-screen__background">
+    <img src="./img/first-screen/vegetables.png" alt="" class="first-screen__vegetables">
+    <img src="./img/first-screen/icons.png" alt="" class="first-screen__icons">
+    <div class="first-screen__cobtainer container">
+        <div class="first-screen__body">
+             <div class="first-screen__title title">
+                Food delivery in Kovel
+             </div>
+             <div class="first-screen__text">If you decide to relax or have unexpected guests, call us. We make sure that your vacation is comfortable, enjoyable and delicious</div>
+             <div class="first-screen__illustration">
+                 <img src="./img/first-screen/pizza.png" alt="" class="first-screen__pizza">
+                 <div class="first-screen__offer">
+                     <div class="first-screen__add link" data-block="dishes" >
+                         <span class="--svg__add"></span>   
+                     </div>
+                     <img src="./img/first-screen/line.png" alt="" class="first-screen__line">
+                     <div class="first-screen__info">
+                        When ordering from 
+                         <span>700 UAH</span>
+                         , delivery is free
+                    </div>
+                 </div>
+             </div>
+        </div>
+    </div>
+</div>
+
+		<div class="dishes">
+    <img src="./img/dishes/image1.png" alt="" class="dishes__image1">
+    <img src="./img/dishes/image2.png" alt="" class="dishes__image2">
+    <img src="./img/dishes/image3.png" alt="" class="dishes__image3">
+    <div class="dishes__basket dishes-basket">
+         <div class="dishes-basket__price">= 298 $</div>
+         <div class="dishes-basket__button">
+             <div class="dishes-basket__ico --svg__shopping-bag"></div>
+             <div class="dishes-basket__count">2</div>
+         </div>
+    </div>
+
+     <div class="dishes__container container">
+         <div class="dishes__body">
+             <div class="dishes__title title">Popular dishes</div>
+             <div class="dishes__items">
+                 <div class="dishes__item dishes__item_active">Pizza</div>
+                 <div class="dishes__item">Sushi</div>
+                 <div class="dishes__item">Salad</div>
+                 <div class="dishes__item">Dessert</div>
+                 <div class="dishes__item">Drinks</div>
+             </div>
+             <div class="dishes__content">
+                <div class="dishes-block"></div>
+             </div>     
+             <div class="dishes__more --svg__more"></div>
+         </div>
+     </div>
+
+</div>
+ 
+
+
+		<div class="instagram">
+    <img src="./img/instagram/photo.png" alt="" class="instagram__photo">
+    <div class="instagram__body">
+            <div class="instagram__block">
+                <div class="instagram__wrapper">
+                    <div href="" class="instagram__text">Instagram:  <a href="">@classic_kovel</a></div>
+                </div>
+            </div>
+    </div>
+</div>
+
+		<div class="contact">
+    <img src="./img/contact/vegitable.png" alt="" class="contact__vegitable">
+    
+    <div class="contact__container container">
+        <div class="contact__body">
+            <div class="title contact__title">
+                Fill out the form
+                and we will call you
+            </div>
+            <div class="contact__content">
+                <form action="#" id="form" class="contact__form">
+                    <input placeholder="Your name" type="text" class="contact__input contact__item _req ">
+                    <input placeholder="Phone number" type="tel" class="contact__input  contact__item _req _phone-number">
+                    <button type = "submit" class="contact__button  contact__item">Сall back <span class="--svg__arrow"></span></button>
+                </form>
+            </div>
+            <img src="./img/contact/car.png" alt="" class="contact__car">
+        </div>
+    </div>
+</div>
+
+	</main>
+	<footer class="footer">
+    <div class="footer__container container">
+        <div class="footer__body">
+            <div class="footer__copyright">© Classic Family Restaurant</div>
+            <img src="./img/logo.png" alt="" class="footer__logo">
+            <div class="footer__designed">
+                Made with delight by 
+                <span>harmuder</span>
+            </div>
+           
+        </div>
+    </div>
+</footer>
+
+
+	<div class="modal dishes-basket-popup">
+	<div class="modal__container dishes-basket-popup__container" role="dialog" aria-modal="true" data-graph-target="dish-modal">
+		<button class="btn-reset modal__close dishes-basket-popup__close" aria-label="Закрыть модальное окно"></button>
+		<div class="modal-content dishes-basket-popup__content">
+            <div class="dishes-basket-popup__empty">Cart is empty</div>
+            <div class="dishes-basket-popup__top popup-hide">
+                <div class="dishes-basket-popup__title">
+                    <div class="dishes-basket-popup__ico --svg__shopping-bag"></div>
+                    <div class="dishes-basket-popup__text title">Cart</div>
+                </div>
+                <div class="dishes-basket-popup__clean"><span class="--svg__clean"></span> Clean cart </div>
+            </div>
+            <div class="dishes-basket-popup__block popup-hide"></div>  
+            <div class="dishes-basket-popup__bottom popup-hide">
+                <div class="dishes-basket-popup__count">
+                    Total goods: 
+                    <span>3</span>
+                </div>
+                <div class="dishes-basket-popup__total">Total price: <span>300 UAH</span></div>
+            </div>
+            <button class="dishes-basket-popup__button popup-hide">Pay now</button>
+		</div>
+
+	</div>
+</div>
+
+	<script src="js/libs.min.js"></script>
+<script src="js/main.min.js"></script>
+
+</body>
+
+</html>
+ 
